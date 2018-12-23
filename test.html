@@ -22,22 +22,6 @@
                      simpleSheet: true } )
   }
 
-  function showInfo(data, tabletop) {
-    alert('Successfully processed!')
-    console.log(data);
-  }
-
-  window.addEventListener('DOMContentLoaded', init)
-</script>
-  
-</head>
-
-<body>
-    <div class=”post”>
-
-  <p>Hi can you see me?</p>
-  
- <script>
 for (var i = 0; i < data.length; i++) {
 $(‘.post’).append(
 ‘<div class=”article” style=”background-image: url( ‘ +
@@ -50,8 +34,16 @@ data[i].body +
 ‘</div>’ +
 ‘</div>’);
 }
-  </script>
+
+  window.addEventListener('DOMContentLoaded', init)
+</script>
   
+</head>
+
+<body>
+    <div class=”post”>
+  <p>Hi can you see me?</p>
+      
   </div>
 </body>
 </html>
