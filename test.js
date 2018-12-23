@@ -1,6 +1,6 @@
 function init() {
- Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1ZCLS7KCRRsVRjqAIrr_nIVSSvT9uTkpdHUrW4ZMI_qY/pubhtml',
- callback: showInfo
+ Tabletop.init( { key: '1ZCLS7KCRRsVRjqAIrr_nIVSSvT9uTkpdHUrW4ZMI_qY/pubhtml',
+ callback: showInfo,
  simpleSheet: true } )
 }
 
