@@ -24,14 +24,11 @@
 
 for (var i = 0; i < data.length; i++) {
 $(‘.post’).append(
-‘<div class=”article” style=”background-image: url( ‘ +
-data[i].img + ‘.jpg)”>’ +
+‘<div class=”article”>’ +
 ‘<div class=”text”>’ +
-‘<h1>’ + data[i].title + ‘</h1>’+
-data[i].body +
-‘</div> ‘ + ‘<div class=”meta-info”>’ + ‘<img src =”’ + data[i].img + ‘.jpg”>’+
-‘<div class=”date”>’ + data[i].date + ‘</div>’ +
-‘</div>’ +
+‘<h1>’ + data[i].date + ‘</h1>’+
+data[i].url +
+‘</div>‘
 ‘</div>’);
 }
 
